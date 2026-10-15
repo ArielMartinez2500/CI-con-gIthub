@@ -16,7 +16,7 @@ from temperatura import (
 
 def test_conversion_correcta():
     """Verifica la conversion de Celsius a Fahrenheit."""
-    assert celsius_a_fahrenheit(25) == 100
+    assert celsius_a_fahrenheit(25) == 77
 
 
 def test_conversion_cero():
